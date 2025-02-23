@@ -1,0 +1,9 @@
+app = "Tweetcord"
+primary_region = "otp"
+
+[env]
+  DATA_PATH = "/data"
+
+[mounts]
+  source = "Tweetcord"
+  destination = "/data"
